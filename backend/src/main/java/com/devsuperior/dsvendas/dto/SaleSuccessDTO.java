@@ -19,13 +19,7 @@ public class SaleSuccessDTO implements Serializable {
 		this.visited = visited;
 		this.deals = deals;
 	}
-	
-	public SaleSuccessDTO(Seller seller, Double sum) {
-		super();
-		this.sellerName = seller.getName();
-		this.sum = sum;
-	}
-
+		
 	public String getSellerName() {
 		return sellerName;
 	}
